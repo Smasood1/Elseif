@@ -1,7 +1,8 @@
-public class ShapeFactory {
+public class grade {
     public static void main(String[] args) {
 
         double grade = Math.floor(Math.random() * 101);
+        System.out.println(grade);
 
         if (grade >= 90){
             System.out.println("You got an A!");
